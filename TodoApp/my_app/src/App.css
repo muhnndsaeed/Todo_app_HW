@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: rgb(126, 93, 93);
+}
+
+.Todo_app{
+  background-color: darkgray;
+  min-height:20vh;
+  padding:2rem;
+  
+  
+}
+
+.Todo_app input[type='submit']{
+  background-color: chocolate;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 0.4rem 3px;
+  margin: 3px 3px;
+}
+ 
+  
+  
+  
+ 
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
